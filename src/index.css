@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #141414;
+  --color-canvas: #E4E3E0;
+  --color-paper: #D9D8D5;
+  
+  --font-serif-italic: "Georgia", serif;
+  --font-mono: "Courier New", Courier, monospace;
+  --font-sans: "Helvetica Neue", Helvetica, "Arial", sans-serif;
+}
+
+/* Base custom classes to match theme directly */
+.font-serif-italic {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+}
+
+.border-ink {
+  border-color: #141414;
+}
+
+.bg-canvas {
+  background-color: #E4E3E0;
+}
+
+.bg-paper {
+  background-color: #D9D8D5;
+}
+
+.bg-ink {
+  background-color: #141414;
+}
+
+.text-ink {
+  color: #141414;
+}
+
+.text-canvas {
+  color: #E4E3E0;
+}
+
+/* Form inputs & buttons styles to align with High Density aesthetic */
+input, select, textarea {
+  border-radius: 0px !important;
+  border-color: #141414 !important;
+  font-family: "Courier New", Courier, monospace !important;
+}
+
+button {
+  border-radius: 0px !important;
+}
+
+/* Force standard high density look for borders and elements */
+.high-density-box {
+  background-color: #E4E3E0;
+  border: 1px solid #141414;
+  color: #141414;
+}
+
+.high-density-header {
+  background-color: #D9D8D5;
+  border-bottom: 1px solid #141414;
+}
+
+/* Scrollbars to match dark/light theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E4E3E0;
+  border-left: 1px solid #141414;
+}
+::-webkit-scrollbar-thumb {
+  background: #141414;
+}

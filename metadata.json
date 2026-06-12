@@ -1,0 +1,6 @@
+{
+  "name": "Business Reporting & Revenue Analytics System",
+  "description": "An interactive reporting and analytics platform with SQL ETL pipeline builder, data validation engine, and Power BI style visual dashboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
