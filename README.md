@@ -259,55 +259,6 @@ Fragmented datasets
 
 Solved using SQL joins and ETL aggregation pipelines.
 
-📁 Project Structure
-
-```text
-B2R-Systems/
-│── sql/
-│   ├── revenue_aggregator.sql
-│   ├── customer_cac_analysis.sql
-│   └── anomaly_detection_pipeline.sql
-│
-│── python/
-│   └── revenue_anomaly_models.ipynb
-│
-│── dashboard/
-│   └── powerbi_dashboard.pbix
-│
-│── assets/
-│   ├── dashboard-overview.png
-│   ├── revenue-trend.png
-│   ├── revenue-segment-analysis.png
-│   ├── sql-etl-workspace.png
-│   ├── schema-explorer.png
-│   ├── etl-pipelines.png
-│   ├── python-outlier-engine.png
-│   ├── anomaly-detection.png
-│   ├── data-quality-architecture.png
-│   └── validation-rules.png
-│
-└── README.md
-```
-
-⚙️ Installation
-
-```bash
-git clone https://github.com/yourusername/B2R-Systems.git
-```
-
-Install dependencies:
-
-```bash
-pip install pandas numpy matplotlib
-```
-
-Run SQL scripts inside:
-
-```text
-/sql
-```
-
-Then launch the Power BI dashboard.
 
 📚 Key Learnings
 
